@@ -1,0 +1,65 @@
+unix@unix-virtual-machine:~/workshop$ cd sciencex
+
+unix@unix-virtual-machine:~/workshop/sciencex$ cd cpp/SCA
+
+unix@unix-virtual-machine:~/workshop/sciencex/cpp/SCA$ mkdir build
+
+unix@unix-virtual-machine:~/workshop/sciencex/cpp/SCA$ mkdir src
+
+unix@unix-virtual-machine:~/workshop/sciencex/cpp/SCA$ cd build
+
+unix@unix-virtual-machine:~/workshop/sciencex/cpp/SCA/build$ cmake ..
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/unix/workshop/sciencex/cpp/SCA/build
+
+unix@unix-virtual-machine:~/workshop/sciencex/cpp/SCA/build$ cmake --build .
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/unix/workshop/sciencex/cpp/SCA/build
+[ 50%] Building CXX object CMakeFiles/mainSCA.dir/main.cpp.o
+[100%] Linking CXX executable mainSCA
+[100%] Built target mainSCA
+
+unix@unix-virtual-machine:~/workshop/sciencex/cpp/SCA/build$ ./mainSCA
+                              *                             
+                             ***                            
+                            * * *                           
+                           ** * **                          
+                          *   *   *                         
+                         *** *** ***                        
+                        * *   *   * *                       
+                       ** ** *** ** **                      
+                      *       *       *                     
+                     ***     ***     ***                    
+                    * * *   * * *   * * *                   
+                   ** * ** ** * ** ** * **                  
+                  *   *       *       *   *                 
+                 *** ***     ***     *** ***                
+                * *   * *   * * *   * *   * *               
+               ** ** ** ** ** * ** ** ** ** **              
+              *               *               *             
+             ***             ***             ***            
+            * * *           * * *           * * *           
+           ** * **         ** * **         ** * **          
+          *   *   *       *   *   *       *   *   *         
+         *** *** ***     *** *** ***     *** *** ***        
+        * *   *   * *   * *   *   * *   * *   *   * *       
+       ** ** *** ** ** ** ** *** ** ** ** ** *** ** **      
+      *       *               *               *       *     
+     ***     ***             ***             ***     ***    
+    * * *   * * *           * * *           * * *   * * *   
+   ** * ** ** * **         ** * **         ** * ** ** * **  
+  *   *       *   *       *   *   *       *   *       *   * 
+ *** ***     *** ***     *** *** ***     *** ***     *** ***
+  *   * *   * *   * *   * *   *   * *   * *   * *   * *   * 
+ *** ** ** ** ** ** ** ** ** *** ** ** ** ** ** ** ** ** ***
+  *                           *                           * 
+ ***                         ***                         ***
+  * *                       * * *                       * * 
+ ** **                     ** * **                     ** **
+      *                   *   *   *                   *     
+     ***                 *** *** ***                 ***    
+    * * *               * *   *   * *               * * *   
+   ** * **             ** ** *** ** **             ** * **  
+  *   *   *           *       *       *           *   *   * 
