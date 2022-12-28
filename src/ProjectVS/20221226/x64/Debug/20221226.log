@@ -1,6 +1,6 @@
-﻿  Main26.cpp
-D:\.workshop\DOSTI\ic-dosti\CourseCPPJunior\src\ProjectVS\20221226\Main26.cpp(48,27): warning C4305: инициализация: усечение из "double" в "float"
-D:\.workshop\DOSTI\ic-dosti\CourseCPPJunior\src\ProjectVS\20221226\Main26.cpp(88,118): warning C4244: аргумент: преобразование "long double" в "const unsigned int", возможна потеря данных
-D:\.workshop\DOSTI\ic-dosti\CourseCPPJunior\src\ProjectVS\20221226\Main26.cpp(88,109): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
-D:\.workshop\DOSTI\ic-dosti\CourseCPPJunior\src\ProjectVS\20221226\Main26.cpp(89,103): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
+﻿  Main.cpp
+D:\.workshop\DOSTI\ic-dosti\CourseCPPJunior\src\ProjectVS\20221226\Main.cpp(48,27): warning C4305: инициализация: усечение из "double" в "float"
+D:\.workshop\DOSTI\ic-dosti\CourseCPPJunior\src\ProjectVS\20221226\Main.cpp(88,118): warning C4244: аргумент: преобразование "long double" в "const unsigned int", возможна потеря данных
+D:\.workshop\DOSTI\ic-dosti\CourseCPPJunior\src\ProjectVS\20221226\Main.cpp(88,109): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
+D:\.workshop\DOSTI\ic-dosti\CourseCPPJunior\src\ProjectVS\20221226\Main.cpp(89,103): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
   20221226.vcxproj -> D:\.workshop\DOSTI\ic-dosti\CourseCPPJunior\src\ProjectVS\x64\Debug\20221226.exe

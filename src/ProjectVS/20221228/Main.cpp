@@ -31,9 +31,9 @@ int main()
 
     auto numberSeven = 900;
     
-    int c = 10;
+    int c = 500;
 
-    if (c > 10) {
+    if (c < 50) {
         // Цикл while
         int i = 1;
         while (i < 10)
@@ -56,22 +56,26 @@ int main()
         {
             std::cout << "do-while = " << b << std::endl;
             b--;
-        } while (b > 0);
+        } while (b > 6);
     }
     else {
         std::cout << "Попробуйте заново" << std::endl;
     }
 
+    /*
     switch (c) {
     case 1:
+        std::cout << "C = 1" << std::endl;
         break;
     case 2:
         break;
     case 3:
         break;
+    default:
+        break;
     }
-
-
+    */
+    
     long double resultOfSum = numberSum(numberA, numberB, numberC, numberD);
     std::cout << "Результат сложения чисел = " << resultOfSum;
 
