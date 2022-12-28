@@ -1,1 +1,5 @@
-﻿  20221228.vcxproj -> D:\.workshop\DOSTI\ic-dosti\CourseCPPJunior\src\ProjectVS\x64\Debug\20221228.exe
+﻿  Main.cpp
+D:\.workshop\DOSTI\ic-dosti\CourseCPPJunior\src\ProjectVS\20221228\Main.cpp(29,27): warning C4305: инициализация: усечение из "double" в "float"
+  Sum.cpp
+  Создание кода...
+  20221228.vcxproj -> D:\.workshop\DOSTI\ic-dosti\CourseCPPJunior\src\ProjectVS\x64\Debug\20221228.exe
