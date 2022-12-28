@@ -31,27 +31,45 @@ int main()
 
     auto numberSeven = 900;
     
-    // Цикл while
-    int i = 1;
-    while (i < 10)
-    {
-        std::cout << i << " * " << i << " = " << i * i << std::endl;
-        i++;
+    int c = 10;
+
+    if (c > 10) {
+        // Цикл while
+        int i = 1;
+        while (i < 10)
+        {
+            std::cout << "while = " << " * " << i << " = " << i * i << std::endl;
+            i++;
+        }
+    }
+    else if (c == 10) {
+        // Цикл for
+        for (int a = 1; a < 10; a++)
+        {
+            std::cout << "for = " << a << " * " << a << " = " << a * a << std::endl;
+        }
+    }
+    else if (c < 10) {
+        // Цикл do-while
+        int b = 6;
+        do
+        {
+            std::cout << "do-while = " << b << std::endl;
+            b--;
+        } while (b > 0);
+    }
+    else {
+        std::cout << "Попробуйте заново" << std::endl;
     }
 
-    // Цикл for
-    for (int a = 1; a < 10; a++)
-    {
-        std::cout << a << " * " << a << " = " << a * a << std::endl;
+    switch (c) {
+    case 1:
+        break;
+    case 2:
+        break;
+    case 3:
+        break;
     }
-
-    // Цикл do-while
-    int b = 6;
-    do
-    {
-        std::cout << b << std::endl;
-        b--;
-    } while (b > 0);
 
 
     long double resultOfSum = numberSum(numberA, numberB, numberC, numberD);
