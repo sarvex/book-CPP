@@ -1,0 +1,2 @@
+﻿  mplMain.cpp
+C:\dev\vcpkg\vcpkg\installed\x64-windows\include\matplotlibcpp.h(5,10): fatal  error C1083: Не удается открыть файл включение: Python.h: No such file or directory,
