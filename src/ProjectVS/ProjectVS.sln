@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "matplotlibExample", "matplo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20221229", "20221229\20221229.vcxproj", "{1572D642-D618-41CE-8F61-835D04008C01}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20230104", "20230104\20230104.vcxproj", "{1C2FFEF5-98D8-4B0A-95FB-3D395A3E6C96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{1572D642-D618-41CE-8F61-835D04008C01}.Release|x64.Build.0 = Release|x64
 		{1572D642-D618-41CE-8F61-835D04008C01}.Release|x86.ActiveCfg = Release|Win32
 		{1572D642-D618-41CE-8F61-835D04008C01}.Release|x86.Build.0 = Release|Win32
+		{1C2FFEF5-98D8-4B0A-95FB-3D395A3E6C96}.Debug|x64.ActiveCfg = Debug|x64
+		{1C2FFEF5-98D8-4B0A-95FB-3D395A3E6C96}.Debug|x64.Build.0 = Debug|x64
+		{1C2FFEF5-98D8-4B0A-95FB-3D395A3E6C96}.Debug|x86.ActiveCfg = Debug|Win32
+		{1C2FFEF5-98D8-4B0A-95FB-3D395A3E6C96}.Debug|x86.Build.0 = Debug|Win32
+		{1C2FFEF5-98D8-4B0A-95FB-3D395A3E6C96}.Release|x64.ActiveCfg = Release|x64
+		{1C2FFEF5-98D8-4B0A-95FB-3D395A3E6C96}.Release|x64.Build.0 = Release|x64
+		{1C2FFEF5-98D8-4B0A-95FB-3D395A3E6C96}.Release|x86.ActiveCfg = Release|Win32
+		{1C2FFEF5-98D8-4B0A-95FB-3D395A3E6C96}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
