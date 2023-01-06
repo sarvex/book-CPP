@@ -17,21 +17,26 @@ using namespace std;
 
 int main() {
 	setlocale(LC_ALL, "Russian");
+
+	// Создание переменной хранящей случайное значение
 	srand(time(NULL));
-	multiset <int> mst;
+
+	// Объявление мультисета
+	multiset <int> myMST;
 	
+	// Добавление случайных значений в мультисет
 	cout << "Объявление случайных значений: " << endl;
-	
 	for (int i = 0; i < 10; i++) {
 		int random = rand() % 10 + 1;
-		mst.insert(random);
+		myMST.insert(random);
 		cout << i + 1 << ") " << random << endl;
 	}
 	
-	multiset <int> ::iterator it = mst.begin();
+	multiset <int> ::iterator it = myMST.begin();
+
+	// Вывод элементов из мультисета
 	cout << "Отсортированный вариант: " << endl;
-	
-	for (int i = 1; it != mst.end(); i++, it++) {
+	for (int i = 1; it != myMST.end(); i++, it++) {
 		cout << *it << " ";
 	}
 	
