@@ -6,14 +6,12 @@
 * 4. Версия языка C - 18
 */
 
-
-#include <iostream>
-#include <cmath>
-
+#include <iostream> // Intpu and output
+#include <cmath> // Math
 
 int main()
 {
-    setlocale(LC_ALL, "Ru-ru");
+    setlocale(LC_ALL, "Ru-ru"); // Russian language is on
 
     // Однострочный комментарий
     /*
